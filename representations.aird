@@ -34,11 +34,11 @@
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_D5r84IHFEe6Hi7AKRaUFKA" name="Block Definition Diagram (Structural BDD)" repPath="#_D5o5kIHFEe6Hi7AKRaUFKA" changeId="1699842011285">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
-        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
+        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
       </ownedRepresentationDescriptors>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tSWKUIHJEe6Hi7AKRaUFKA" name="Block Definition Diagram (Structural BDD)" repPath="#_tSU8MIHJEe6Hi7AKRaUFKA" changeId="1699841458748">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
-        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
+        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_XCXSEG05Ee6Jq-9ohKnHbQ">
@@ -794,8 +794,8 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_l9inUIHGEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;Cancela" incomingEdges="_l9j1gIHGEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
         <ownedStyle xmi:type="diagram:Square" uid="_l9inUYHGEe6Hi7AKRaUFKA" showIcon="false" labelPosition="node" color="126,177,254">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']/@style"/>
         </ownedStyle>
@@ -953,8 +953,8 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']"/>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_AC4DYIHFEe6Hi7AKRaUFKA" name="&lt;&lt;package>>&#xA;Componentes físicos" width="10" height="6" resizeKind="NSEW">
-        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
-        <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
+        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
+        <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -964,8 +964,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.Package']/@defaultLayer/@containerMappings[name='Pkg.Self']/@subNodeMappings[name='Pkg.Package']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_0gkL4IHGEe6Hi7AKRaUFKA" name="&lt;&lt;package>>&#xA;Componentes de software" width="10" height="6" resizeKind="NSEW">
-        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
-        <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
+        <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
+        <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2071,8 +2071,8 @@
         </ownedElements>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_S7mDloHKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;GerenciadorDeVagas" incomingEdges="_S7n4wIHKEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='GerenciadorDeVagas']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='GerenciadorDeVagas']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='GerenciadorDeVagas']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='GerenciadorDeVagas']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2082,8 +2082,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_vITw9IHKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;ControladorCentral" incomingEdges="_vIW0QIHKEe6Hi7AKRaUFKA _wc0F4IHKEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorCentral']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorCentral']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorCentral']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorCentral']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2093,8 +2093,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_QuwjLIHLEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;Cancela" incomingEdges="_QuyYeoHLEe6Hi7AKRaUFKA _aFLf9IHLEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2104,8 +2104,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_QuxKMoHLEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;ReconhecedorDePlacas" incomingEdges="_Quy_YIHLEe6Hi7AKRaUFKA _aFLf-YHLEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ReconhecedorDePlacas']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ReconhecedorDePlacas']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ReconhecedorDePlacas']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ReconhecedorDePlacas']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2115,8 +2115,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_gTdcloHKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;TerminalDePagamento" incomingEdges="_gTi8MIHKEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='TerminalDePagamento']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='TerminalDePagamento']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='TerminalDePagamento']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='TerminalDePagamento']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2126,8 +2126,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_gTeqsYHKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;ControladorDePagamentos" incomingEdges="_gTi8NYHKEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorDePagamentos']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorDePagamentos']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorDePagamentos']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorDePagamentos']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2137,8 +2137,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_S7mDk4HKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;DisplayLED" incomingEdges="_4N_peIHSEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='DisplayLED']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='DisplayLED']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='DisplayLED']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='DisplayLED']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2148,8 +2148,8 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Requirements']/@ownedRepresentations[name='SysADL.Requirements.Main']/@defaultLayer/@containerMappings[name='SysADL.Req.Self']/@subNodeMappings[name='SysADL.Req.Imports.Element']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" uid="_S7mqooHKEe6Hi7AKRaUFKA" name="&lt;&lt;Component>>&#xA;SensorDePresenca" incomingEdges="_D6yybIHUEe6Hi7AKRaUFKA" width="3" height="3" resizeKind="NSEW">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='SensorDePresenca']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='SensorDePresenca']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='SensorDePresenca']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='SensorDePresenca']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2475,23 +2475,23 @@
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_D6MTMYHFEe6Hi7AKRaUFKA"/>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_D56mYIHFEe6Hi7AKRaUFKA" name="bdd [Structure] Componentes físicos satisfies ">
-      <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
-      <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
+      <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
+      <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_D6KeAIHFEe6Hi7AKRaUFKA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_A5_cIIHGEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;Cancela">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='Cancela']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='Cancela']"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_A6LCUIHGEe6Hi7AKRaUFKA" iconPath="/org.sysadl.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_iwM2sIHIEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;CameraDeEntrada">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='CameraDeEntrada']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='CameraDeEntrada']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='CameraDeEntrada']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='CameraDeEntrada']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2501,8 +2501,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_ovGeEIHIEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;CameraDeSaida">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='CameraDeSaida']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='CameraDeSaida']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='CameraDeSaida']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='CameraDeSaida']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2512,16 +2512,16 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_L6X5AIHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;TerminalDePagamento">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='TerminalDePagamento']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='TerminalDePagamento']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='TerminalDePagamento']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='TerminalDePagamento']"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_L6X5AYHJEe6Hi7AKRaUFKA" iconPath="/org.sysadl.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Ur_foIHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;SensorDePresenca">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='SensorDePresenca']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='SensorDePresenca']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='SensorDePresenca']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='SensorDePresenca']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2531,8 +2531,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_YfQ88IHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;DisplayLED">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='DisplayLED']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']/@definitions[name='DisplayLED']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='DisplayLED']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']/@definitions[name='DisplayLED']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2545,7 +2545,7 @@
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_D5pgoIHFEe6Hi7AKRaUFKA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer"/>
-    <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20físicos']"/>
+    <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesFisicos']"/>
   </diagram:DSemanticDiagram>
   <diagram:DSemanticDiagram uid="_tSU8MIHJEe6Hi7AKRaUFKA">
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_tSetMIHJEe6Hi7AKRaUFKA" source="GMF_DIAGRAMS">
@@ -2602,23 +2602,23 @@
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_tSmB8YHJEe6Hi7AKRaUFKA"/>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_tSetM4HJEe6Hi7AKRaUFKA" name="bdd [Structure] Componentes de software satisfies ">
-      <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
-      <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
+      <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
+      <semanticElements xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_tSla4IHJEe6Hi7AKRaUFKA" showIcon="false" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" foregroundColor="255,255,255">
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']"/>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_uF2D0IHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;ControladorCentral">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorCentral']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorCentral']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorCentral']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorCentral']"/>
         <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_uF_NwIHJEe6Hi7AKRaUFKA" iconPath="/org.sysadl.viewpoints/icons/Component.gif" borderSize="1" borderSizeComputationExpression="1">
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_wtVDcIHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;ReconhecedorDePlacas">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ReconhecedorDePlacas']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ReconhecedorDePlacas']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ReconhecedorDePlacas']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ReconhecedorDePlacas']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2628,8 +2628,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_0F0pQIHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;GerenciadorDeVagas">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='GerenciadorDeVagas']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='GerenciadorDeVagas']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='GerenciadorDeVagas']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='GerenciadorDeVagas']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2639,8 +2639,8 @@
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer/@containerMappings[name='BDD']/@subContainerMappings[name='BDD.ComponentDef']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3NtnQIHJEe6Hi7AKRaUFKA" name="&lt;&lt;component>>&#xA;ControladorDePagamentos">
-        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorDePagamentos']"/>
-        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']/@definitions[name='ControladorDePagamentos']"/>
+        <target xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorDePagamentos']"/>
+        <semanticElements xmi:type="sysadl:ComponentDef" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']/@definitions[name='ControladorDePagamentos']"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2653,6 +2653,6 @@
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_tSU8MYHJEe6Hi7AKRaUFKA"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.sysadl.viewpoints/description/SysADL_vp.odesign#//@ownedViewpoints[name='SysADL.Structural']/@ownedRepresentations[name='SysADL.BDD']/@defaultLayer"/>
-    <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='Componentes%20de%20software']"/>
+    <target xmi:type="sysadl:Package" href="SmartPark.sysadl#//@packages[name='ComponentesDeSoftware']"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
